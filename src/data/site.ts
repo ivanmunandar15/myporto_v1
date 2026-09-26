@@ -8,7 +8,7 @@ import { personalInfo } from "@/data/social";
 export const siteConfig = {
   // TODO: replace with the real purchased domain, e.g. "https://ivanmunandar.com"
   // (no trailing slash).
-  url: "https://[YOUR_DOMAIN]",
+  url: "https://ivanmunandar.my.id",
   title: `${personalInfo.name} — ${personalInfo.title}`,
   description:
     "Portfolio of Ivan Munandar, an electrical engineer working across laboratory testing, instrumentation, IoT, and software development.",
