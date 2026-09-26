@@ -22,6 +22,6 @@ export const siteConfig = {
     "IoT Developer",
     "Embedded Systems",
     "ESP32 Developer",
-    "Web Developer Portfolio",
+    "Web Developer",
   ],
 } as const;
