@@ -72,7 +72,7 @@ export const metadata: Metadata = {
  */
 function PersonJsonLd() {
   const sameAs = socialLinks
-    .filter((link) => link.icon !== "mail" && !isPlaceholder(link.href))
+    .filter((link) => !link.href.startsWith("mailto:") && !isPlaceholder(link.href))
     .map((link) => link.href);
 
   const jsonLd = {
